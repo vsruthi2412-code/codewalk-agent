@@ -262,8 +262,7 @@ with gr.Blocks(
     gr.Markdown("### File Structure")
 
     file_structure = gr.Code(
-        label="Repository Files",
-        language="text"
+    label="Repository Files"
     )
 
     gr.Markdown("---")
